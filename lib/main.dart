@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_web_sample/welcome/app.dart';
+
 void main() => runApp(SignUpApp());
 
 class SignUpApp extends StatelessWidget {
@@ -106,17 +108,6 @@ class _SignUpFormState extends State<SignUpForm> {
             child: Text('Sign up'),
           ),
         ],
-      ),
-    );
-  }
-}
-
-class WelcomeScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text('Welcome!', style: Theme.of(context).textTheme.headline2),
       ),
     );
   }
