@@ -1,4 +1,4 @@
-myapp.dartは最初にcreateした時に生成されたmain.dart
+myapp.dartは最初にcreateした時に生成されたmain.dart  
 なんか、もったいなかったので削除してない。
 
 https://flutter.dev/docs/get-started/test-drive
@@ -8,3 +8,5 @@ https://flutter.dev/docs/get-started/test-drive
 
 # cdnで読み込むとバージョン変わると面倒だね
 yarnでパッケージ管理してwebpackでバンドルするしかないか？
+
+# pub getしたflutterfireが依存するfirebase.jsのバージョンとindex.htmlに読み込んでるバージョンってどうやって合わせるの？
